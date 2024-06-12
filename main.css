@@ -146,13 +146,17 @@ justify-content: center;
   max-width: 1400px;
   flex-direction: row;
   flex-wrap: wrap ;
+  display: flex;
 }
 
 .boards__sidebar {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
   background-color: #6C547B;
   border-radius: 3px;
   margin: 0 32px 32px 0;
-  padding: 0 20px 32px 20px;
+  padding: 20px;
   max-height: 130px;
   max-width: 180px;
   width: 20%;
@@ -170,43 +174,53 @@ justify-content: center;
 }
 
 .board-1{
-  background-image: url("./board-backgrounds/board-1-background.jpg") ;
+  /* background-image: url("./board-backgrounds/board-1-background.jpg") ; */
 }
 
 .board-2{
   background-image: url("./board-backgrounds/board-2-background.jpg") ;
+  background-size: cover;
+
 }
 
 .board-3{
   background-image: url("./board-backgrounds/board-3-background.jpg") ;
+  background-size: cover;
 }
 
 .board-4{
   background-image: url("./board-backgrounds/board-4-background.jpg") ;
+  background-size: cover;
 }
 
 .board-5{
   background-image: url("./board-backgrounds/board-5-background.jpg") ;
+  background-size: cover;
 }
 
 .board-6{
   background-image: url("./board-backgrounds/board-6-background.jpg") ;
+  background-size: cover;
 }
 
 .board-7{
   background-image: url("./board-backgrounds/board-7-background.jpg") ;
+  background-size: cover;
 }
 
 .board-8{
   background-image: url("./board-backgrounds/board-8-background.jpg") ;
+  background-size: cover;
 }
 
 .board-9{
   background-image: url("./board-backgrounds/board-9-background.jpg") ;
+  background-size: cover;
 }
 
 .board-10{
   background-image: url("./board-backgrounds/board-10-background.jpg") ;
+  background-size: cover;
 }
 
 
